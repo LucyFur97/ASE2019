@@ -1,5 +1,7 @@
 #include <cstdlib> // for abs(long long int)
+
 #include <sstream>
+
 #include <stdexcept>
 
 #include "../headers/rational.h"
