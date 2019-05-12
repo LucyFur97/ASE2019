@@ -2,12 +2,12 @@
 #include <sstream>
 #include <stdexcept>
 
-
+//Stuff Stuff
 //add libraries
 #include "../headers/rational.h"
 #include "../headers/dividebyzeroerror.h"
 #include "../headers/gcd.h"
-
+//Fluff fluff
 namespace ExactArithmetic
 {
 
@@ -86,9 +86,7 @@ bool Rational::operator>=(const Rational & r) const
     return num >= r.num || denom >= r.denom;
 }
 
-
 ////////////////////////////////////////////////////////////////////////////////
-
 
 /*  Arithmetic Operators
  *
