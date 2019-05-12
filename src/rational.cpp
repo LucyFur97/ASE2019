@@ -2,6 +2,8 @@
 #include <sstream>
 #include <stdexcept>
 
+
+//add libraries
 #include "../headers/rational.h"
 #include "../headers/dividebyzeroerror.h"
 #include "../headers/gcd.h"
@@ -96,12 +98,15 @@ bool Rational::operator>=(const Rational & r) const
  *  (a/b) / (c/d) = (a*d) / (b*c)  (division by zero throws a DivideByZeroError)
  */
 
+
+//Fixed
 Rational Rational::operator+(const Rational & r) const
 {
 	return Rational((num * r.denom) + (denom * r.num),(denom * r.denom));
     //return Rational(num + r.num, denom + r.denom);
 }
 
+//Fixed
 Rational Rational::operator-(const Rational & r) const
 {
 	return Rational((num * r.denom) - (denom * r.num), (denom * r.denom));
@@ -109,11 +114,14 @@ Rational Rational::operator-(const Rational & r) const
     //return Rational(num - r.num, denom - r.denom);
 }
 
+//Fixed
 Rational Rational::operator*(const Rational & r) const
 {
 	return Rational((num * r.num) , (denom * r.denom));
     //return Rational(num * r.num, denom * r.denom);
 }
+
+//Fixed
 
 Rational Rational::operator/(const Rational & r) const
 {
