@@ -4,9 +4,13 @@
 #include <gtest/gtest.h>
 using namespace ExactArithmetic;
 
+
+
 using std::cout;
 using std::cin;
 using std::endl;
+
+
 
 TEST(ExactArithmeticTest, EA_AdditionTest1)
 {
@@ -280,4 +284,60 @@ int main(int argc, char* argv[])
 	*/
 	return RUN_ALL_TESTS();
 }
+
+//
+//
+///
+//
+///
+///
+///
+///
+////
+//
+//
+/
+////
+//
+/
+/
+/
+////
+///
+//
+//
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+//
+/
+
+///
+//
+
+//
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+
+//
+////
+/
 
