@@ -1,7 +1,5 @@
 #include <cstdlib> // for abs(long long int)
-
 #include <sstream>
-
 #include <stdexcept>
 
 #include "../headers/rational.h"
@@ -11,7 +9,6 @@
 namespace ExactArithmetic
 {
 
-////////////////////////////////////////////////////////////////////////////////
 
 Rational::Rational()
 {
@@ -88,8 +85,8 @@ bool Rational::operator>=(const Rational & r) const
 }
 
 
-
 ////////////////////////////////////////////////////////////////////////////////
+
 
 /*  Arithmetic Operators
  *
